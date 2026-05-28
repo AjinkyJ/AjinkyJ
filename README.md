@@ -210,4 +210,4 @@ Proof-of-concept for a smart automated grain dispensing system for the Public Di
 - Government Official Training on Internet of Things — C-DAC (Aug 2025)
 ---
 
-*Open to embedded firmware roles, R&D collaborations, and consulting on IoT/biomedical embedded systems.*
+*Open to embedded firmware and software roles, R&D collaborations in embedded systems.*
