@@ -208,13 +208,6 @@ Proof-of-concept for a smart automated grain dispensing system for the Public Di
 ## 📜 Certifications
 
 - Government Official Training on Internet of Things — C-DAC (Aug 2025)
-
----
-
-## 📊 GitHub Stats
-
-![Ajinkya's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ajinkyajadhav77&show_icons=true&theme=default)
-
 ---
 
 *Open to embedded firmware roles, R&D collaborations, and consulting on IoT/biomedical embedded systems.*
