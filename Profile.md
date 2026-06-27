@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- ANIMATED HEADER BANNER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:00b4d8,100:0d1117&height=200&section=header&text=Ajinkya%20Jadhav&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Embedded%20Firmware%20Engineer%20%7C%20Biomedical%20Instrumentation&descAlignY=58&descSize=16&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:00b4d8,100:0d1117&height=200&section=header&text=Ajinkya%20Jadhav&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Embedded%20Firmware%20Engineer%20%7C%20Radiation%20%26%20Biosensor%20Systems&descAlignY=58&descSize=16&animation=fadeIn" width="100%"/>
 
 <!-- TYPING ANIMATION -->
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=1000&color=00B4D8&center=true&vCenter=true&width=700&lines=Bare-Metal+%26+FreeRTOS+Firmware+Architect;DMA-Driven+Biosensor+Acquisition+Pipelines;Fixed-Point+DSP+%7C+SiPM+%7C+NIR+Spectroscopy;BLE+5.0+%7C+Low-Power+IoT+%7C+MeitY+R%26D)](https://git.io/typing-svg)
@@ -33,9 +33,9 @@ const FirmwareEngineer_t me = {
     .role              = "Embedded Firmware Engineer (Project Associate)",
     .organization      = "C-DAC CINE | IIT Guwahati",
     .experience_months = 28,
-    .domains           = { "Biomedical Instrumentation",
-                           "Radiation Monitoring IoT",
-                           "Ultra-Low-Power Sensor Systems" },
+    .domains           = { "Radiation Monitoring IoT",
+                           "Ultra-Low-Power Sensor Systems",
+                           "Fixed-Point DSP & Optical Sensing" },
     .platforms         = { "STM32", "ESP32", "Vega Aries V3",
                            "FreeRTOS", "Bare-Metal" }
 };
@@ -120,6 +120,23 @@ const FirmwareEngineer_t me = {
 </td>
 <td width="50%" valign="top">
 
+### 🔬 Portable NIR Spectroscopy System
+**Plastic Composition Identification**
+
+`STM32WB55` `InGaAs Detector` `Fixed-Point DSP` `BLE 5.0` `Deep Sleep`
+
+- Architected DMA-driven 12-bit ADC acquisition pipeline for InGaAs NIR photodetector
+- Implemented real-time fixed-point DSP (Q15/Q31) spectral processing — zero heap allocation
+- Deployed BLE 5.0 notification stack for wireless spectral data streaming
+- Achieved deep-sleep current < 2 µA for field-deployable battery operation
+
+**Targets:** PET · HDPE · PVC classification
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 ### 💡 SiPM Fluorescence Intensity Meter
 **Photon Counting Front-End**
 
@@ -136,6 +153,33 @@ const FirmwareEngineer_t me = {
 <td width="50%" valign="top">
 
 
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🛡 Radiation Survey Meter
+**Centre Product — STM32 Platform**
+
+`STM32F4/L4` `PIN Diode AFE` `SPI TFT` `SD Card` `LVGL`
+
+- Developed interrupt-driven PIN diode pulse counting firmware with configurable integration windows
+- Integrated 2.4″ ILI9341 TFT via hardware SPI with DMA-assisted framebuffer transfers
+- Implemented FAT32 SD card logging over SPI for dose-rate time-series archival
+- LVGL UI rendering with double-buffer strategy for tear-free display updates
+
+</td>
+<td width="50%" valign="top">
+
+### ✈️ Predictive Maintenance System
+**Indian Air Force — ESP32 Platform**
+
+`ESP32` `Multi-Sensor Fusion` `I2C/UART/ADC` `TFT UI` `VS Code`
+
+- Integrated heterogeneous sensor array via I2C, UART, and analog GPIO concurrently
+- Designed 2.8″ 320×240 TFT diagnostic UI with real-time sensor value overlays
+- Executed iterative firmware modification cycles based on client QA validation reports
+- Delivered production-ready firmware with full technical documentation suite
 
 </td>
 </tr>
