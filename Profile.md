@@ -1,31 +1,31 @@
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0F1E,50:00B4D8,100:0A0F1E&height=220&section=header&text=Ajinkya%20Jadhav&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Embedded%20Firmware%20Engineer%20%E2%80%A2%20MeitY%20R%26D%20%7C%20C-DAC%20CINE%20%7C%20IIT%20Guwahati&descAlignY=58&descSize=17" width="100%"/>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Experience-2%2B%20Years-00B4D8?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/MeitY%20R%26D-5%2B%20Proposals-0A3D62?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Platforms-STM32%20%7C%20ESP32%20%7C%20RISC--V-03234B?style=for-the-badge" />
+</p>
+
 <div align="center">
-
-<!-- ANIMATED HEADER BANNER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:00b4d8,100:0d1117&height=200&section=header&text=Ajinkya%20Jadhav&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Embedded%20Firmware%20Engineer%20%7C%20Radiation%20%26%20Biosensor%20Systems&descAlignY=58&descSize=16&animation=fadeIn" width="100%"/>
-
-<!-- TYPING ANIMATION -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=1000&color=00B4D8&center=true&vCenter=true&width=700&lines=Bare-Metal+%26+FreeRTOS+Firmware+Architect;DMA-Driven+Biosensor+Acquisition+Pipelines;Fixed-Point+DSP+%7C+SiPM+%7C+NIR+Spectroscopy;BLE+5.0+%7C+Low-Power+IoT+%7C+MeitY+R%26D)](https://git.io/typing-svg)
-
-<br/>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ajinkya%20Jadhav-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ajinkyajadhav77)
-[![Email](https://img.shields.io/badge/Email-jadhavajinkya1306-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jadhavajinkya1306@gmail.com)
-[![Profile Views](https://komarev.com/ghpvc/?username=AjinkyJ&color=00b4d8&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/AjinkyJ)
-
+  <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/coding.gif" width="280" />
+  <img src="https://github.com/rajput2107/rajput2107/raw/master/Assets/Developer.gif" width="300"/>
 </div>
 
----
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/divider.gif" width="100%">
+</p>
 
 ## ⚡ About Me
 
 ```c
 typedef struct {
-    char     *name;
-    char     *role;
-    char     *organization;
-    uint8_t   experience_months;
-    char     *domains[3];
-    char     *platforms[5];
+    const char *name;
+    const char *role;
+    const char *organization;
+    uint8_t     experience_months;
+    const char *specializations[4];
+    const char *platforms[5];
+    const char *current_focus;
 } FirmwareEngineer_t;
 
 const FirmwareEngineer_t me = {
@@ -33,71 +33,148 @@ const FirmwareEngineer_t me = {
     .role              = "Embedded Firmware Engineer (Project Associate)",
     .organization      = "C-DAC CINE | IIT Guwahati",
     .experience_months = 28,
-    .domains           = { "Radiation Monitoring IoT",
-                           "Ultra-Low-Power Sensor Systems",
-                           "Fixed-Point DSP & Optical Sensing" },
-    .platforms         = { "STM32", "ESP32", "Vega Aries V3",
-                           "FreeRTOS", "Bare-Metal" }
+    .specializations   = { "DMA-Driven Acquisition Pipelines",
+                           "Fixed-Point DSP & Optical Sensing",
+                           "Ultra-Low-Power RTOS Architecture",
+                           "BLE 5.0 & Photon-Counting Sensors" },
+    .platforms         = { "STM32", "ESP32", "Vega Aries V3 (RISC-V)",
+                           "FreeRTOS", "Bare-Metal" },
+    .current_focus     = "MeitY R&D: Radiation Monitoring & NIR Spectroscopy"
 };
 ```
 
-> Architecting firmware for **government MeitY R&D programs** — from photon-counting analog front-ends to BLE 5.0 mesh topologies. Specialized in DMA-driven acquisition, fixed-point DSP pipelines, and sub-µA sleep architectures on resource-constrained MCUs.
+- ⚡ Architecting **DMA-driven firmware** for government MeitY R&D programs across STM32, ESP32 & RISC-V
+- 🔬 Designing **fixed-point DSP pipelines** for SiPM photon counting & InGaAs NIR spectral acquisition
+- 🔋 Engineering **sub-µA sleep architectures** — projected 2-year runtime on Li-SOCl₂ cells
+- 📡 Deploying **BLE 5.0 dual-role topologies** (Central + Peripheral) for distributed sensor networks
+- 🏛 Contributed to **5+ MeitY R&D proposals** in collaboration with IITs and national agencies
+- 🛠 End-to-end ownership: requirement analysis → hardware bring-up → field validation
 
----
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/divider.gif" width="100%">
+</p>
 
-## 🛠 Technical Arsenal
+## 👨🏻‍💻 Tech Stack
 
+### 🔡 Languages
 <div align="center">
-
-### 🔲 Microcontrollers & Platforms
-![STM32F4](https://img.shields.io/badge/STM32F4-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
-![STM32L4](https://img.shields.io/badge/STM32L4-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
-![STM32H7](https://img.shields.io/badge/STM32H7-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
-![STM32WB55](https://img.shields.io/badge/STM32WB55_BLE-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
-![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
-![ESP32-S3](https://img.shields.io/badge/ESP32--S3-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
-![Vega Aries V3](https://img.shields.io/badge/Vega%20Aries%20V3%20RISC--V-4CAF50?style=for-the-badge&logoColor=white)
-
-### ⚙️ RTOS & Firmware Architecture
-![FreeRTOS](https://img.shields.io/badge/FreeRTOS-8CC84B?style=for-the-badge&logoColor=white)
-![Bare Metal](https://img.shields.io/badge/Bare--Metal-FF6F00?style=for-the-badge&logoColor=white)
-![DMA](https://img.shields.io/badge/DMA%20Pipelines-00B4D8?style=for-the-badge&logoColor=white)
-![Low Power](https://img.shields.io/badge/ULP%20Architecture-8B008B?style=for-the-badge&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-
-### 📡 Protocols & Connectivity
-![UART](https://img.shields.io/badge/UART-555555?style=for-the-badge)
-![SPI](https://img.shields.io/badge/SPI-555555?style=for-the-badge)
-![I2C](https://img.shields.io/badge/I2C-555555?style=for-the-badge)
-![QSPI](https://img.shields.io/badge/QSPI-555555?style=for-the-badge)
-![BLE 5.0](https://img.shields.io/badge/BLE%205.0-0082FC?style=for-the-badge&logo=bluetooth&logoColor=white)
-![BLE 4.2](https://img.shields.io/badge/BLE%204.2-0082FC?style=for-the-badge&logo=bluetooth&logoColor=white)
-![Wi-Fi](https://img.shields.io/badge/Wi--Fi-FF6F00?style=for-the-badge&logo=wifi&logoColor=white)
-![MQTT](https://img.shields.io/badge/MQTT-3C5280?style=for-the-badge&logo=eclipsemosquitto&logoColor=white)
-
-### 🔬 Sensors & Optical Front-Ends
-![SiPM](https://img.shields.io/badge/SiPM%20Photon%20Counting-9C27B0?style=for-the-badge&logoColor=white)
-![InGaAs](https://img.shields.io/badge/InGaAs%20NIR%20Detector-1565C0?style=for-the-badge&logoColor=white)
-![PIN Diode](https://img.shields.io/badge/PIN%20Diode%20Radiation-B71C1C?style=for-the-badge&logoColor=white)
-
-### 🖥 IDEs & Toolchains
-![STM32CubeIDE](https://img.shields.io/badge/STM32CubeIDE-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![ESP-IDF](https://img.shields.io/badge/ESP--IDF-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
-![Eclipse](https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipseide&logoColor=white)
-![CMake](https://img.shields.io/badge/CMake-008FBA?style=for-the-badge&logo=cmake&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-
-### 🔭 Debug & Validation Instruments
-![SWD/JTAG](https://img.shields.io/badge/SWD%2FJTAG-455A64?style=for-the-badge)
-![Logic Analyzer](https://img.shields.io/badge/Logic%20Analyzer-455A64?style=for-the-badge)
-![DSO](https://img.shields.io/badge/DSO-455A64?style=for-the-badge)
-![BLE Sniffer](https://img.shields.io/badge/BLE%20Sniffer-455A64?style=for-the-badge)
-![DMM](https://img.shields.io/badge/Digital%20Multimeter-455A64?style=for-the-badge)
-
+  <img src="https://skillicons.dev/icons?i=c,cpp,python,linux" />
 </div>
 
----
+### 🔲 Microcontrollers & Platforms
+<p align="center">
+  <img src="https://img.shields.io/badge/STM32F4-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white" />
+  <img src="https://img.shields.io/badge/STM32L4-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white" />
+  <img src="https://img.shields.io/badge/STM32H7-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white" />
+  <img src="https://img.shields.io/badge/STM32WB55%20BLE-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white" />
+  <img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white" />
+  <img src="https://img.shields.io/badge/ESP32--S3-E7352C?style=for-the-badge&logo=espressif&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vega%20Aries%20V3%20RISC--V-4CAF50?style=for-the-badge&logoColor=white" />
+</p>
+
+### ⚙️ RTOS & Firmware Architecture
+<p align="center">
+  <img src="https://img.shields.io/badge/FreeRTOS-8CC84B?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/Bare--Metal-FF6F00?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/DMA%20Pipelines-00B4D8?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/ULP%20Architecture-8B008B?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/Fixed--Point%20DSP-0A3D62?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/ESP--IDF%20%2B%20FreeRTOS-E7352C?style=for-the-badge&logo=espressif&logoColor=white" />
+</p>
+
+### 📡 Protocols & Connectivity
+<p align="center">
+  <img src="https://img.shields.io/badge/UART-455A64?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/SPI-455A64?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/I2C-455A64?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/QSPI-455A64?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/BLE%205.0-0082FC?style=for-the-badge&logo=bluetooth&logoColor=white" />
+  <img src="https://img.shields.io/badge/BLE%204.2-0082FC?style=for-the-badge&logo=bluetooth&logoColor=white" />
+  <img src="https://img.shields.io/badge/Wi--Fi-FF6F00?style=for-the-badge&logo=wifi&logoColor=white" />
+  <img src="https://img.shields.io/badge/MQTT-3C5280?style=for-the-badge&logo=eclipsemosquitto&logoColor=white" />
+</p>
+
+### 🔬 Sensors & Optical Front-Ends
+<p align="center">
+  <img src="https://img.shields.io/badge/SiPM%20Photon%20Counting-9C27B0?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/InGaAs%20NIR%20Detector-1565C0?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/PIN%20Diode%20Radiation-B71C1C?style=for-the-badge&logoColor=white" />
+</p>
+
+### 🖥 IDEs, Toolchains & Debug
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=vscode,eclipse,cmake,github,arduino" />
+</div>
+<p align="center">
+  <img src="https://img.shields.io/badge/STM32CubeIDE-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white" />
+  <img src="https://img.shields.io/badge/SWD%2FJTAG-455A64?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Logic%20Analyzer-455A64?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/DSO-455A64?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/BLE%20Sniffer-455A64?style=for-the-badge" />
+</p>
+
+### 🖵 Displays & Peripherals
+<p align="center">
+  <img src="https://img.shields.io/badge/LVGL-00B4D8?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/ILI9341%20TFT-455A64?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Nextion%20HMI-FF6F00?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/OLED-333333?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/DMA%20%7C%20ADC%20%7C%20RTC%20%7C%20PWM-0A3D62?style=for-the-badge" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/divider.gif" width="100%">
+</p>
+
+## 💼 Work Experience
+
+<table width="100%">
+<tr>
+<td width="10%" align="center" valign="top">
+  <img src="https://img.shields.io/badge/2023-Present-00B4D8?style=for-the-badge" />
+</td>
+<td width="90%" valign="top">
+
+### 🏢 Embedded Firmware Engineer (Project Associate) — **C-DAC CINE | IIT Guwahati**
+
+<img src="https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white" />
+<img src="https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white" />
+<img src="https://img.shields.io/badge/Vega%20Aries%20V3-4CAF50?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/FreeRTOS-8CC84B?style=flat-square&logoColor=white" />
+<img src="https://img.shields.io/badge/BLE%205.0-0082FC?style=flat-square&logo=bluetooth&logoColor=white" />
+<img src="https://img.shields.io/badge/LVGL-00B4D8?style=flat-square&logoColor=white" />
+
+**🔬 Project: Radiation Dosimeter — Hub & Peripheral (MeitY)**
+- Architected dual-role BLE topology (Central + Peripheral) on Vega Aries V3 RISC-V for distributed radiation dose acquisition
+- Implemented DMA-driven PIN diode pulse capture with hardware-averaging for SNR improvement
+- Integrated 10.1″ capacitive TFT UI via LVGL; debugged RF anomalies using BLE sniffer protocol traces
+
+**📡 Project: Radiation Survey Meter (Centre Product)**
+- Engineered interrupt-driven PIN diode pulse counting with configurable integration windows on STM32
+- Integrated 2.4″ ILI9341 TFT via hardware SPI with DMA-assisted framebuffer transfers (LVGL double-buffer)
+- Implemented FAT32 SD card logging over SPI for dose-rate time-series archival
+
+**✈️ Project: Predictive Maintenance System (Indian Air Force)**
+- Developed multi-sensor fusion firmware on ESP32 via I2C, UART, and analog GPIO concurrently
+- Designed 2.8″ 320×240 TFT real-time diagnostic UI; executed iterative QA-driven firmware modification cycles
+
+**🔋 Project: Smart Gas AMR — Ultra Low Power (AGCL)**
+- Architected interrupt-driven reed-switch pulse counter with bare-metal cooperative scheduler
+- Implemented duty-cycled GSM transmission with aggressive STM32 STOP-mode sleep management
+- **Projected 2-year runtime** on 1200 mAh Li-SOCl₂ cell achieving < 5 µA average sleep current
+
+**💡 Project: Fluorescence Intensity Measurement Device (IIT Guwahati)**
+- Developed ADC acquisition + cascaded IIR digital filter pipeline for SiPM-based photon detection on ESP32
+- Engineered fixed curve-fitting calibration engine; multi-protocol telemetry (UART + I2C simultaneous output)
+- Delivered user manuals and test procedure documentation for R&D handoff
+
+</td>
+</tr>
+</table>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/divider.gif" width="100%">
+</p>
 
 ## 🔑 Featured Projects
 
@@ -110,10 +187,10 @@ const FirmwareEngineer_t me = {
 
 `STM32L162` `RN4871 BLE 4.2` `Vega Aries V3` `DMA` `LVGL`
 
-- Architected dual-role BLE topology (Central + Peripheral) for distributed radiation dose acquisition
-- Implemented DMA-driven PIN diode pulse capture with hardware-averaging for SNR improvement
-- Integrated 10.1″ capacitive TFT UI via LVGL on RISC-V target
-- Debugged RF-layer anomalies using BLE sniffer protocol traces
+- Dual-role BLE topology for distributed radiation dose acquisition network
+- DMA-driven PIN diode pulse capture with hardware-averaging (SNR improvement)
+- 10.1″ capacitive TFT UI via LVGL on RISC-V target
+- RF-layer debugging with BLE sniffer protocol traces
 
 **Impact:** MeitY-funded national radiation monitoring infrastructure
 
@@ -125,10 +202,10 @@ const FirmwareEngineer_t me = {
 
 `STM32WB55` `InGaAs Detector` `Fixed-Point DSP` `BLE 5.0` `Deep Sleep`
 
-- Architected DMA-driven 12-bit ADC acquisition pipeline for InGaAs NIR photodetector
-- Implemented real-time fixed-point DSP (Q15/Q31) spectral processing — zero heap allocation
-- Deployed BLE 5.0 notification stack for wireless spectral data streaming
-- Achieved deep-sleep current < 2 µA for field-deployable battery operation
+- DMA-driven 12-bit ADC acquisition pipeline for InGaAs NIR photodetector
+- Real-time fixed-point DSP (Q15/Q31) spectral processing — zero heap allocation
+- BLE 5.0 notification stack for wireless spectral data streaming
+- Deep-sleep current < 2 µA for field-deployable battery operation
 
 **Targets:** PET · HDPE · PVC classification
 
@@ -142,91 +219,94 @@ const FirmwareEngineer_t me = {
 
 `ESP32` `SiPM` `ADC` `IIR Digital Filter` `UART/I2C`
 
-- Engineered ADC acquisition pipeline with hardware oversampling for single-photon sensitivity
-- Implemented cascaded IIR digital filter for dark-count rejection
-- Developed fixed curve-fitting calibration engine (polynomial regression in fixed-point)
-- Multi-protocol data bus: simultaneous UART + I2C telemetry output
+- ADC pipeline with hardware oversampling for single-photon sensitivity
+- Cascaded IIR digital filter for dark-count rejection
+- Fixed curve-fitting calibration engine (polynomial regression, fixed-point)
+- Simultaneous UART + I2C telemetry output
 
-**Affiliation:** IIT Guwahati Biomedical Research Lab
-
-</td>
-<td width="50%" valign="top">
-
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🛡 Radiation Survey Meter
-**Centre Product — STM32 Platform**
-
-`STM32F4/L4` `PIN Diode AFE` `SPI TFT` `SD Card` `LVGL`
-
-- Developed interrupt-driven PIN diode pulse counting firmware with configurable integration windows
-- Integrated 2.4″ ILI9341 TFT via hardware SPI with DMA-assisted framebuffer transfers
-- Implemented FAT32 SD card logging over SPI for dose-rate time-series archival
-- LVGL UI rendering with double-buffer strategy for tear-free display updates
+**Affiliation:** IIT Guwahati Research Lab
 
 </td>
 <td width="50%" valign="top">
 
-### ✈️ Predictive Maintenance System
-**Indian Air Force — ESP32 Platform**
+### 🔋 Smart Gas AMR — Ultra Low Power
+**2-Year Battery Life on Li-SOCl₂**
 
-`ESP32` `Multi-Sensor Fusion` `I2C/UART/ADC` `TFT UI` `VS Code`
+`STM32` `GSM` `Bare-Metal Scheduler` `Li-SOCl₂` `STOP Mode`
 
-- Integrated heterogeneous sensor array via I2C, UART, and analog GPIO concurrently
-- Designed 2.8″ 320×240 TFT diagnostic UI with real-time sensor value overlays
-- Executed iterative firmware modification cycles based on client QA validation reports
-- Delivered production-ready firmware with full technical documentation suite
+- Interrupt-driven pulse counter with debounced reed-switch interface
+- Custom bare-metal cooperative scheduler for deterministic wake cycles
+- Duty-cycled GSM transmission with STOP mode between bursts
+- **< 5 µA average sleep current** → 2-year projected runtime
+
+**Client:** AGCL Smart Metering Program
 
 </td>
 </tr>
 </table>
 
----
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/divider.gif" width="100%">
+</p>
 
-## 📈 GitHub Statistics
+## 🐍 Contribution Snake
 
-<div align="center">
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AjinkyJ/AjinkyJ/output/github-contribution-grid-snake.svg" alt="contribution snake" width="100%"/>
+</p>
 
-<img height="180em" src="https://github-readme-stats.shion.dev/api?username=AjinkyJ&theme=tokyonight&hide_border=true&include_all_commits=false&count_private=false&show_icons=true"/>
-<img height="180em" src="https://github-readme-stats.shion.dev/api/top-langs/?username=AjinkyJ&theme=tokyonight&hide_border=true&layout=compact&langs_count=6"/>
+> ⚙️ Animates daily — see the **Setup** section at the bottom to enable this for your repo.
 
-<br/>
+## 🌐 3D Contribution Graph
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=AjinkyJ&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AjinkyJ/AjinkyJ/output/profile-night-rainbow.svg" alt="3d contribution graph" width="100%"/>
+</p>
 
-</div>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/divider.gif" width="100%">
+</p>
 
----
+## 📊 GitHub Stats & Activity
 
-## 🏆 GitHub Trophies
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=AjinkyJ&show_icons=true&theme=tokyonight&hide_border=true" height="180" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AjinkyJ&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" height="180" />
+</p>
 
-<div align="center">
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AjinkyJ&theme=tokyonight&hide_border=true" />
+</p>
 
-[![Trophies](https://github-profile-trophy.vercel.app/?username=AjinkyJ&theme=tokyonight&no-frame=true&no-bg=false&margin-w=6&column=7)](https://github.com/ryo-ma/github-profile-trophy)
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AjinkyJ&theme=react-dark" />
+</p>
 
-</div>
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=AjinkyJ&theme=tokyonight&no-frame=true&margin-w=6&column=7" />
+</p>
 
----
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/divider.gif" width="100%">
+</p>
 
-## 📄 Contributions & R&D Impact
+## 📄 R&D Impact
 
 <div align="center">
 
 | Domain | Contribution | Scale |
 |--------|-------------|-------|
 | 🏛 MeitY R&D Programs | Firmware architect & co-developer | 5+ funded proposals |
-| 🤝 IIT Guwahati | Biomedical sensor system firmware | Joint R&D deliverables |
+| 🤝 IIT Guwahati | Optical sensor system firmware | Joint R&D deliverables |
 | 🏢 C-DAC CINE | Embedded product engineering | 6+ device platforms |
 | ✈️ Indian Air Force | Predictive maintenance system | Production delivery |
 | ⛽ AGCL | Smart gas AMR ultra-low-power firmware | Field deployment |
 
 </div>
 
----
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/divider.gif" width="100%">
+</p>
 
 ## 🎓 Education & Certifications
 
@@ -236,12 +316,38 @@ const FirmwareEngineer_t me = {
 🏅  Govt. IoT Training Certification (Aug 2025)   — C-DAC
 ```
 
----
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/divider.gif" width="100%">
+</p>
 
-<div align="center">
+## 📫 Connect With Me
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:00b4d8,100:0d1117&height=120&section=footer&animation=fadeIn" width="100%"/>
+<p align="center">
+  <a href="https://linkedin.com/in/ajinkyajadhav77">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=for-the-badge" />
+  </a>
+  <a href="mailto:jadhavajinkya1306@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white&style=for-the-badge" />
+  </a>
+  <a href="https://github.com/AjinkyJ">
+    <img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white&style=for-the-badge" />
+  </a>
+</p>
 
-*"Good firmware is invisible — it just works, at the edge, for years."*
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/footer.gif" width="100%">
+</p>
 
-</div>
+## ⚙️ Setup — Snake & 3D Graph Animations
+
+Both widgets are GitHub Actions that run on a daily schedule in your `AjinkyJ/AjinkyJ` profile repo and push generated SVGs to an `output` branch.
+
+**One-time setup:**
+
+1. Create `.github/workflows/snake.yml` using [Platane/snk](https://github.com/Platane/snk) — generates the contribution snake SVG
+2. Create `.github/workflows/profile-3d-contrib.yml` using [yoshi389111/github-profile-3d-contrib](https://github.com/yoshi389111/github-profile-3d-contrib) — generates the 3D graph SVG
+3. Both actions push output to the `output` branch — the image URLs in this README point there automatically
+
+> Both YAML workflow files can be generated on request.
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0F1E,50:00B4D8,100:0A0F1E&height=120&section=footer" width="100%"/>
