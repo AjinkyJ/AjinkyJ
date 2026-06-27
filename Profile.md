@@ -176,21 +176,6 @@ const FirmwareEngineer_t me = {
 </td>
 <td width="50%" valign="top">
 
-### 🔋 Smart Gas AMR — Ultra Low Power
-**2-Year Battery Life on Li-SOCl₂**
-
-`STM32` `GSM` `Bare-Metal Scheduler` `Li-SOCl₂` `STOP Mode`
-
-- Interrupt-driven pulse counter with debounced reed-switch interface
-- Custom bare-metal cooperative scheduler for deterministic wake cycles
-- Duty-cycled GSM transmission with STOP mode between bursts
-- **< 5 µA average sleep current** → 2-year projected runtime
-
-**Client:** AGCL Smart Metering Program
-
-</td>
-</tr>
-</table>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/divider.gif" width="100%">
