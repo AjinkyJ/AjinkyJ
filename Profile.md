@@ -179,23 +179,7 @@ const FirmwareEngineer_t me = {
   <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/divider.gif" width="100%">
 </p>
 
-## 🐍 Contribution Snake
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/AjinkyJ/AjinkyJ/output/github-contribution-grid-snake.svg" alt="contribution snake" width="100%"/>
-</p>
-
-> ⚙️ Animates daily — see the **Setup** section at the bottom to enable this for your repo.
-
-## 🌐 3D Contribution Graph
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/AjinkyJ/AjinkyJ/output/profile-night-rainbow.svg" alt="3d contribution graph" width="100%"/>
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/divider.gif" width="100%">
-</p>
 
 ## 📊 GitHub Stats & Activity
 
