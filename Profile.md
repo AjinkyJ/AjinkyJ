@@ -1,13 +1,12 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0F1E,50:00B4D8,100:0A0F1E&height=220&section=header&text=Ajinkya%20Jadhav&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Embedded%20Firmware%20Engineer%20%E2%80%A2%20MeitY%20R%26D%20%7C%20C-DAC%20CINE%20%7C%20IIT%20Guwahati&descAlignY=58&descSize=17" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:327594,100:7B2FF7&height=220&section=header&text=Aniket%20Bembale&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=AI%20%2F%20GenAI%20Engineer%20%E2%80%A2%20Quantum%20ML%20Researcher&descAlignY=55&descSize=20" width="100%"/>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Experience-2%2B%20Years-00B4D8?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/MeitY%20R%26D-5%2B%20Proposals-0A3D62?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Platforms-STM32%20%7C%20ESP32%20%7C%20RISC--V-03234B?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Experience-2%2B%20Years-327594?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Best%20Paper%20Award-ETTIS%202025-gold?style=for-the-badge" />
 </p>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/coding.gif" width="280" />
+  <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/robot.gif" width="220" />
   <img src="https://github.com/rajput2107/rajput2107/raw/master/Assets/Developer.gif" width="300"/>
 </div>
 
