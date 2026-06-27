@@ -120,23 +120,6 @@ const FirmwareEngineer_t me = {
 </td>
 <td width="50%" valign="top">
 
-### 🔬 Portable NIR Spectroscopy System
-**Plastic Composition Identification**
-
-`STM32WB55` `InGaAs Detector` `Fixed-Point DSP` `BLE 5.0` `Deep Sleep`
-
-- Architected DMA-driven 12-bit ADC acquisition pipeline for InGaAs NIR photodetector
-- Implemented real-time fixed-point DSP (Q15/Q31) spectral processing — zero heap allocation
-- Deployed BLE 5.0 notification stack for wireless spectral data streaming
-- Achieved deep-sleep current < 2 µA for field-deployable battery operation
-
-**Targets:** PET · HDPE · PVC classification
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
 ### 💡 SiPM Fluorescence Intensity Meter
 **Photon Counting Front-End**
 
@@ -152,45 +135,7 @@ const FirmwareEngineer_t me = {
 </td>
 <td width="50%" valign="top">
 
-### 🔋 Smart Gas AMR — Ultra Low Power
-**2-Year Battery Life Target**
 
-`Vega Aries MCU` `STM32` `GSM` `Li-SOCl₂` `Bare-Metal Scheduler`
-
-- Designed interrupt-driven pulse counter with debounced reed-switch interface
-- Architected custom bare-metal cooperative scheduler for deterministic wake-wake cycles
-- Implemented aggressive duty-cycled GSM transmission: STOP mode between bursts
-- **Projected 2-year runtime** on 1200 mAh Li-SOCl₂ via <5 µA average sleep current
-
-**Client:** AGCL Smart Metering Program
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🛡 Radiation Survey Meter
-**Centre Product — STM32 Platform**
-
-`STM32F4/L4` `PIN Diode AFE` `SPI TFT` `SD Card` `LVGL`
-
-- Developed interrupt-driven PIN diode pulse counting firmware with configurable integration windows
-- Integrated 2.4″ ILI9341 TFT via hardware SPI with DMA-assisted framebuffer transfers
-- Implemented FAT32 SD card logging over SPI for dose-rate time-series archival
-- LVGL UI rendering with double-buffer strategy for tear-free display updates
-
-</td>
-<td width="50%" valign="top">
-
-### ✈️ Predictive Maintenance System
-**Indian Air Force — ESP32 Platform**
-
-`ESP32` `Multi-Sensor Fusion` `I2C/UART/ADC` `TFT UI` `VS Code`
-
-- Integrated heterogeneous sensor array via I2C, UART, and analog GPIO concurrently
-- Designed 2.8″ 320×240 TFT diagnostic UI with real-time sensor value overlays
-- Executed iterative firmware modification cycles based on client QA validation reports
-- Delivered production-ready firmware with full technical documentation suite
 
 </td>
 </tr>
