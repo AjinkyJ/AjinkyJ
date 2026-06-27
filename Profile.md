@@ -1,8 +1,6 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:327594,100:7B2FF7&height=220&section=header&text=Ajinkya%20Jadhav&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=%20%2F%20Embedded Firmware%20Engineer%20%E2%80%A2%20%20%20&descAlignY=55&descSize=20" width="100%"/>
-
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:327594,100:7B2FF7&height=220&section=header&text=Ajinkya%20Jadhav&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Embedded%20Firmware%20Engineer&descAlignY=55&descSize=20" width="100%"/>
 <p align="center">
-  <img src="https://img.shields.io/badge/Experience-2%2B%20Years-327594?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Best%20Paper%20Award-ETTIS%202025-gold?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Experience-2.5%2B%20Years-327594?style=for-the-badge" />
 </p>
 
 <div align="center">
@@ -13,6 +11,7 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/divider.gif" width="100%">
 </p>
+
 
 ## ⚡ About Me
 
@@ -269,16 +268,9 @@ const FirmwareEngineer_t me = {
   <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/footer.gif" width="100%">
 </p>
 
-## ⚙️ Setup — Snake & 3D Graph Animations
 
-Both widgets are GitHub Actions that run on a daily schedule in your `AjinkyJ/AjinkyJ` profile repo and push generated SVGs to an `output` branch.
 
-**One-time setup:**
-
-1. Create `.github/workflows/snake.yml` using [Platane/snk](https://github.com/Platane/snk) — generates the contribution snake SVG
-2. Create `.github/workflows/profile-3d-contrib.yml` using [yoshi389111/github-profile-3d-contrib](https://github.com/yoshi389111/github-profile-3d-contrib) — generates the 3D graph SVG
-3. Both actions push output to the `output` branch — the image URLs in this README point there automatically
-
-> Both YAML workflow files can be generated on request.
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0F1E,50:00B4D8,100:0A0F1E&height=120&section=footer" width="100%"/>
+<img
+  src="https://capsule-render.vercel.app/api?type=waving&color=0:327594,100:7B2FF7&height=180&section=footer&text=Thank%20You%20for%20Visiting!&fontSize=34&fontColor=ffffff&animation=fadeIn&fontAlignY=68"
+  width="100%"
+/>
