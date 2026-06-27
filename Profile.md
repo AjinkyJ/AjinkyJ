@@ -158,10 +158,6 @@ const FirmwareEngineer_t me = {
 - Developed multi-sensor fusion firmware on ESP32 via I2C, UART, and analog GPIO concurrently
 - Designed 2.8″ 320×240 TFT real-time diagnostic UI; executed iterative QA-driven firmware modification cycles
 
-**🔋 Project: Smart Gas AMR — Ultra Low Power (AGCL)**
-- Architected interrupt-driven reed-switch pulse counter with bare-metal cooperative scheduler
-- Implemented duty-cycled GSM transmission with aggressive STM32 STOP-mode sleep management
-- **Projected 2-year runtime** on 1200 mAh Li-SOCl₂ cell achieving < 5 µA average sleep current
 
 **💡 Project: Fluorescence Intensity Measurement Device (IIT Guwahati)**
 - Developed ADC acquisition + cascaded IIR digital filter pipeline for SiPM-based photon detection on ESP32
@@ -176,55 +172,6 @@ const FirmwareEngineer_t me = {
   <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/divider.gif" width="100%">
 </p>
 
-## 🔑 Featured Projects
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 📡 BLE 5.0 Radiation Dosimeter
-**Hub & Peripheral Architecture**
-
-`STM32L162` `RN4871 BLE 4.2` `Vega Aries V3` `DMA` `LVGL`
-
-- Dual-role BLE topology for distributed radiation dose acquisition network
-- DMA-driven PIN diode pulse capture with hardware-averaging (SNR improvement)
-- 10.1″ capacitive TFT UI via LVGL on RISC-V target
-- RF-layer debugging with BLE sniffer protocol traces
-
-**Impact:** MeitY-funded national radiation monitoring infrastructure
-
-</td>
-<td width="50%" valign="top">
-
-### 🔬 Portable NIR Spectroscopy System
-**Plastic Composition Identification**
-
-`STM32WB55` `InGaAs Detector` `Fixed-Point DSP` `BLE 5.0` `Deep Sleep`
-
-- DMA-driven 12-bit ADC acquisition pipeline for InGaAs NIR photodetector
-- Real-time fixed-point DSP (Q15/Q31) spectral processing — zero heap allocation
-- BLE 5.0 notification stack for wireless spectral data streaming
-- Deep-sleep current < 2 µA for field-deployable battery operation
-
-**Targets:** PET · HDPE · PVC classification
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 💡 SiPM Fluorescence Intensity Meter
-**Photon Counting Front-End**
-
-`ESP32` `SiPM` `ADC` `IIR Digital Filter` `UART/I2C`
-
-- ADC pipeline with hardware oversampling for single-photon sensitivity
-- Cascaded IIR digital filter for dark-count rejection
-- Fixed curve-fitting calibration engine (polynomial regression, fixed-point)
-- Simultaneous UART + I2C telemetry output
-
-**Affiliation:** IIT Guwahati Research Lab
 
 </td>
 <td width="50%" valign="top">
