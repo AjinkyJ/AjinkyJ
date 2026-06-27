@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:327594,100:7B2FF7&height=220&section=header&text=Ajinkya%20Jadhav&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Embedded Firmwar %20%2F%%20Engineer%20%E2%80%A2%%%&descAlignY=55&descSize=20" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:327594,100:7B2FF7&height=220&section=header&text=Ajinkya%20Jadhav&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=%20%2F%20EmbeddedFirmware%20Engineer%20%E2%80%A2%20%20ML%20&descAlignY=55&descSize=20" width="100%"/>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Experience-2%2B%20Years-327594?style=for-the-badge" />
