@@ -152,9 +152,13 @@ const FirmwareEngineer_t me = {
 - Integrated 2.4″ ILI9341 TFT via hardware SPI with DMA-assisted framebuffer transfers (LVGL double-buffer)
 - Implemented FAT32 SD card logging over SPI for dose-rate time-series archival
 
-**✈️ Project: Predictive Maintenance System (Indian Air Force)**
+**✈️ Project: Predictive Maintenance System **
 - Developed multi-sensor fusion firmware on ESP32 via I2C, UART, and analog GPIO concurrently
 - Designed 2.8″ 320×240 TFT real-time diagnostic UI; executed iterative QA-driven firmware modification cycles
+
+**🔬 Portable NIR Spectroscopy — Plastic Identification  **
+-Led research, architecture, and firmware development of a portable NIR spectroscopy IoT system for real-time plastic composition classification (PET, HDPE, PVC) using InGaAs photodetectors and a custom optical analog front-end.
+-Implemented DMA-driven spectral acquisition and a fixed-point DSP pipeline on STM32WB55, integrating deep-sleep low-power modes and BLE connectivity for continuous, real-time spectral analysis.
 
 
 **💡 Project: Fluorescence Intensity Measurement Device (IIT Guwahati)**
